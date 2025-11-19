@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 TEMP_PATTERNS = (
-    ".pdf", ".lof", ".lot", ".log", ".aux", ".fls", ".out",
+    ".lof", ".lot", ".log", ".aux", ".fls", ".out",
     ".fdb_latexmk", ".synctex.gz", ".toc", ".snm", ".nav"
 )
 
